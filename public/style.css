@@ -1,0 +1,50 @@
+body {
+	text-align: center;
+	background: black;
+	color: #FFCE06;
+}
+
+* {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#content {
+	width: 400px;
+	height: 300px;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:
+			  translate(-200px, -150px)
+			  perspective(300px)
+			  rotateX(40deg);
+}
+
+h1 {
+	font-size: 40px;
+}
+
+#odds {
+	font-size: 40px;
+}
+
+input {
+	display: none;
+}
+
+label, button {
+	margin: 10px 0;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+
+label {
+	border: solid 3px #ffce06;
+}
+
+button {
+	color: black;
+	background: #ffce06;
+	font-weight: bold;
+}
